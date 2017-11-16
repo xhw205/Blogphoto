@@ -121,7 +121,7 @@ def handle_photo():
 #D:\blog\source\photos
 def cut_photo():
     
-    src_dir = "D:/Blogphoto/photos/"
+    src_dir = "D:/test/photos/"
     beifen_dir = "D:/test/min_photos/"
     file_list = list_img_file(src_dir)
     print (file_list)
@@ -150,9 +150,9 @@ def git_operation():
     os.system('git push origin master')
 
 if __name__ == "__main__":
-    cut_photo()        
-    compress_photo()  
-    handle_photo()  
+#    cut_photo()        
+#    compress_photo()  
+#    handle_photo()  
     git_operation()
 # 
     
