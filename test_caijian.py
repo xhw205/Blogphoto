@@ -142,7 +142,8 @@ def cut_photo():
             crop_img = img.crop(region)  
          
             crop_img.save(beifen_dir+infile)           
-
+        else:
+            img.save(beifen_dir+infile)
 def git_operation():
 
     os.system('git add --all')
@@ -154,7 +155,7 @@ if __name__ == "__main__":
 #    cut_photo()        
 #    compress_photo()  
 #    handle_photo()  
-    git_operation()
+     git_operation()
 # 
     
     
