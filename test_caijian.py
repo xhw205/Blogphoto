@@ -152,10 +152,10 @@ def git_operation():
     os.system('git push origin master')
 
 if __name__ == "__main__":
-#    cut_photo()        
-#    compress_photo()  
-#    handle_photo()  
-     git_operation()
+#    cut_photo()       #裁剪图片 
+#    compress_photo()  #压缩图片
+#    handle_photo()  #存入json
+     git_operation() #git
 # 
     
     
