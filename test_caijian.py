@@ -154,7 +154,7 @@ def git_operation():
 if __name__ == "__main__":
 #    cut_photo()       #裁剪图片 
 #    compress_photo()  #压缩图片
-#    handle_photo()  #存入json
+#        handle_photo()  #存入json
      git_operation() #git
 # 
     
